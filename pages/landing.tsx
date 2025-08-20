@@ -1,6 +1,6 @@
 import React from 'react'
 
-function landing() {
+const Landing : React.FC = () => {
   return (
     <div>
       <h1 className=" text-xl font-extralight">Landing Page</h1>
@@ -8,4 +8,4 @@ function landing() {
   )
 }
 
-export default landing
+export default Landing

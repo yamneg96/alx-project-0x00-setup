@@ -1,6 +1,6 @@
 import React from 'react'
 
-function about() {
+const About : React.FC = () => {
   return (
     <div>
    <h1 className="text-xl font-extralight">About Page</h1>
@@ -8,4 +8,4 @@ function about() {
   )
 }
 
-export default about
+export default About
